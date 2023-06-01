@@ -14,8 +14,14 @@ body {
 	background: linear-gradient(180deg, #1d2671 0%, #1c1d21 65%);
 }
 /* center everything inside of main box */
-
-
+#main-container {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 /* style box for robot voice machine */
 
 /* style title of app */
