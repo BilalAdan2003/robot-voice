@@ -20,29 +20,28 @@
         <!-- box for for text -->
         <textarea></textarea>
         <!-- box for speaak button -->
-      <div>
-      <div class="button-container">
-        <button id="speak-button">speak</button>
+        <div>
+          <div class="button-container">
+            <button id="speak-button">speak</button>
+          </div>
+        </div>
       </div>
+      <!-- voice selection modal -->
+      <div id="voice-modal">
+      <!-- modal header with title and close button -->
+        <div id="modal-header">
+          <h2>Choose Voice</h2>
+          <button id="close-modal">X</button>
+        </div>
+     <!-- dropdown to select a voice -->
+        <select id="voice-list"></select>
+      </div>
+     <!-- footer with button to open voices selection -->
+      <div id="footer">
+        <button id="voices-button">🗣️</button>
       </div>
     </div>
-    <!-- voice selection modal -->
-			<div id="voice-modal">
-				<!-- modal header with title and close button -->
-				<div id="modal-header">
-					<h2>Choose Voice</h2>
-					<button id="close-modal">X</button>
-				</div>
-				<!-- dropdown to select a voice -->
-				<select id="voice-list"></select>
-			</div>
-<!-- footer with button to open voices selection -->
-<div id="footer">
-    <button id="voices-button">🗣️</button>
-</div>
-</div>
     <!-- connect javascript file -->
-		<script src="app.js"></script>
-
+    <script src="app.js"></script>
   </body>
 </html>
