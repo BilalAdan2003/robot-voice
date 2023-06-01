@@ -58,5 +58,16 @@ textarea {
 	justify-content: space-evenly;
 }
 /* style speak button */
-
-```
+#speak-button {
+	padding: 0.5rem;
+	border-radius: 1rem;
+	border: 0;
+	width: 100%;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 700;
+	font-size: 1.3rem;
+	color: #a3daff;
+	background-color: #492e7d;
+	box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #00be67,
+		0 0 0.8rem #00be67, 0 0 2.8rem #00be67, inset 0 0 1.3rem #00be67;
+}
