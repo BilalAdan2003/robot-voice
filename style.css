@@ -71,3 +71,10 @@ textarea {
 	box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #00be67,
 		0 0 0.8rem #00be67, 0 0 2.8rem #00be67, inset 0 0 1.3rem #00be67;
 }
+
+/* style speak button on hover */
+#speak-button:hover {
+	cursor: pointer;
+	color: #1d2671;
+	background-color: #a3daff;
+}
