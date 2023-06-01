@@ -134,3 +134,13 @@ textarea {
 }
 
 
+/* style modal close button */
+#close-modal {
+	cursor: pointer;
+	border: 0;
+	font-size: 1rem;
+	font-family: 'Orbitron', sans-serif;
+	color: #a3daff;
+	background-color: transparent;
+}
+
