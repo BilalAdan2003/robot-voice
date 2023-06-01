@@ -31,7 +31,14 @@ body {
 	padding: 2rem;
 }
 /* style title of app */
-
+#app-title {
+	color: #fff;
+	font-family: 'Orbitron', sans-serif;
+	text-shadow: 0 0 7px #ff00fa, 0 0 10px #ff00fa, 0 0 21px #ff00fa,
+		0 0 42px #ff00fa, 0 0 82px #ff00fa, 0 0 92px #ff00fa, 0 0 102px #ff00fa,
+		0 0 151px #ff00fa;
+	text-align: center;
+}
 /* style text area */
 
 /* style button box */
