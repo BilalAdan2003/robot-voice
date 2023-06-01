@@ -105,3 +105,23 @@ textarea {
 	cursor: pointer;
 	background-color: #492e7d;
 }
+
+/* style voice selection modal */
+#voice-modal {
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	padding: 20px;
+	border-radius: 1rem;
+	border: 0.3rem solid #492e7d;
+	background-color: #1d2671;
+	box-shadow: 3.1px 4.2px #2fc0cd;
+}
+
+/* style modal header */
+#modal-header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+}
+
