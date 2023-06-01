@@ -144,3 +144,17 @@ textarea {
 	background-color: transparent;
 }
 
+/* style select voice dropdown */
+#voice-list {
+	cursor: pointer;
+	width: 100%;
+	height: 45px;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	border-radius: 1rem;
+	background-color: #282828;
+	color: #a3daff;
+	appearance: none;
+	border: 3px solid #00a1d5;
+}
+
