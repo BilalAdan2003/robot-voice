@@ -1,7 +1,6 @@
-```css
-/* import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 
+/* import google fonts */
 /* visual guide */
 * {
 	outline: red dashed 2px;
@@ -76,5 +75,17 @@ textarea {
 #speak-button:hover {
 	cursor: pointer;
 	color: #1d2671;
-	background-color: #a3daff;
+	background-color: #b54c3b;
+}
+
+/* style footer */
+#footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	height: 10rem;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
