@@ -40,7 +40,18 @@ body {
 	text-align: center;
 }
 /* style text area */
-
+textarea {
+	min-width: 350px;
+	min-height: 250px;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	font-size: 1rem;
+	font-family: 'Merriweather', serif;
+	border-radius: 1rem;
+	background-color: #282828;
+	color: #a3daff;
+	border: 3px solid #00a1d5;
+}
 /* style button box */
 
 /* style speak button */
