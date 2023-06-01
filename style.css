@@ -23,7 +23,13 @@ body {
 	align-items: center;
 }
 /* style box for robot voice machine */
-
+#voice-machine-container {
+	background: linear-gradient(147deg, #00a1d5 40%, #2b0e66 100%);
+	box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #f500bd,
+		0 0 0.8rem #f500bd, 0 0 2.8rem #f500bd, inset 0 0 1.3rem #f500bd;
+	border-radius: 1rem;
+	padding: 2rem;
+}
 /* style title of app */
 
 /* style text area */
